@@ -1,0 +1,9 @@
+// Router
+import user from './user.route';
+
+...略
+
+/** User Router */
+router.use('/user', user);
+
+...略
